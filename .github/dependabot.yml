@@ -1,0 +1,15 @@
+# https://docs.github.com/en/code-security/supply-chain-security/configuration-options-for-dependency-updates
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    open-pull-requests-limit: 10
+    directory: "/"
+    schedule:
+      interval: weekly
+      time: "04:00"
+  - package-ecosystem: "github-actions"
+    open-pull-requests-limit: 10
+    directory: "/"
+    schedule:
+      interval: weekly
+      time: "04:00"
