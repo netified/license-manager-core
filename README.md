@@ -1,10 +1,10 @@
 # Netified.LicenseManager.Core
 
-![GitHub](https://img.shields.io/github/license/netified/license-manager-core?style=for-the-badge)
-![GitHub Sponsors](https://img.shields.io/github/sponsors/netified?style=for-the-badge)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/netified/license-manager-core/Continuous%20integration?style=for-the-badge)
-![Nuget](https://img.shields.io/nuget/dt/Netified.LicenseManager.Core?style=for-the-badge)
-![Nuget](https://img.shields.io/nuget/v/Netified.LicenseManager.Core?style=for-the-badge)
+[![GitHub](https://img.shields.io/github/license/netified/license-manager-core?style=for-the-badge)](#)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/netified?style=for-the-badge)](#)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/netified/license-manager-core/Continuous%20integration?style=for-the-badge)](#)
+[![Nuget](https://img.shields.io/nuget/dt/Netified.LicenseManager.Core?style=for-the-badge)](#)
+[![Nuget](https://img.shields.io/nuget/v/Netified.LicenseManager.Core?style=for-the-badge)](#)
 
 ## Installation
 
