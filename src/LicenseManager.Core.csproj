@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Thomas ILLIET</Authors>
+    <Company>Netified</Company>
+    <PackageId>Netified.LicenseManager.Core</PackageId>
+    <PackageDescription>Easy-to-use licensing library for .NET Core products.</PackageDescription>
+    <IsPackable>true</IsPackable>
+    <PackageIcon>icon-512.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Thomas ILLIET, Netified</Copyright>
+    <PackageTags>utility library license dotnet</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/netified</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netified/license-manager-core</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <TargetFramework>net6.0</TargetFramework>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+   
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\icon-512.png">
+      <Pack>True</Pack>
+      <Visible>false</Visible>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
