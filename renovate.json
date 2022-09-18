@@ -5,5 +5,9 @@
   "major": {
     "automerge": false
   },
+  "assignees": [
+    "thomas-illiet",
+  ],
+  "dependencyDashboard": false,
   "labels": ["dependencies"]
 }
