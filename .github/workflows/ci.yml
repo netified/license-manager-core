@@ -45,7 +45,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Install dotnet SDK ${{ env.DOTNET_VERSION }}
-      uses: actions/setup-dotnet@v2
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Build Solution
@@ -60,7 +60,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Install dotnet SDK ${{ env.DOTNET_VERSION }}
-      uses: actions/setup-dotnet@v2
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Pack for publish
@@ -79,7 +79,7 @@ jobs:
     if: github.event_name == 'release'
     steps:
     - name: Install dotnet SDK ${{ env.DOTNET_VERSION }}
-      uses: actions/setup-dotnet@v2
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - uses: actions/download-artifact@v3
