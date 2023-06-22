@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="6.0.3" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="6.0.4" />
   </ItemGroup>
 
 </Project>
