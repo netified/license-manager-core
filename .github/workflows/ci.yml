@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - name: Lint Code Base
@@ -43,7 +43,7 @@ jobs:
         GITHUB_CONTEXT: ${{ toJson(github) }}
       run: echo "$GITHUB_CONTEXT"
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Install dotnet SDK ${{ env.DOTNET_VERSION }}
       uses: actions/setup-dotnet@v3
       with:
@@ -58,7 +58,7 @@ jobs:
     if: github.event_name == 'push' || github.event_name == 'release'
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Install dotnet SDK ${{ env.DOTNET_VERSION }}
       uses: actions/setup-dotnet@v3
       with:
